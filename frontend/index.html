@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Waste Solution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Food Waste Solution</h1>
+    <form id="donation-form">
+        <label for="donor">Donor Name:</label>
+        <input type="text" id="donor" name="donor" required><br>
+        <label for="food">Food Description:</label>
+        <textarea id="food" name="food" required></textarea><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" id="quantity" name="quantity" required><br>
+        <label for="edibility">Edibility:</label>
+        <select id="edibility" name="edibility" required>
+            <option value="edible">Edible</option>
+            <option value="non-edible">Non-edible</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
